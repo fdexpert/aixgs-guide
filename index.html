@@ -1,0 +1,365 @@
+<!doctype html>
+<html lang="zh-Hant-TW">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AI-X-Gs 多面向思維｜互動學習指南（非官方）v2.0</title>
+<meta name="description" content="NTU 2026 115-1「多面向思維：未來領導者的AI與地緣政治思考模式」互動學習指南，依林益全老師課程航線整理。">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<a class="skip" href="#main">跳到主要內容</a>
+<div class="sidenav" id="sidenav" role="navigation" aria-label="章節導覽">
+  <div class="sn-head">
+    <a class="sn-brand" href="#top" title="回到頁首"><span class="sn-logo" aria-hidden="true">AX</span><span class="sn-label"><b>AI-X-Gs 學習指南</b><small>非官方學習指南 v2.0</small></span></a>
+    <button class="sn-collapse" id="snCollapse" type="button" aria-expanded="true" aria-controls="sidenav" title="收合導覽列"><span aria-hidden="true">«</span><span class="sr">收合導覽列</span></button>
+    <button class="sn-x" id="snClose" type="button" aria-label="關閉導覽"><span aria-hidden="true">×</span></button>
+  </div>
+  <div class="sn-progress"><div class="sn-bar" id="snBar" role="progressbar" aria-label="閱讀進度" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"><i id="snFill"></i></div><span class="sn-pct sn-label" id="snPct">已讀 0%</span></div>
+  <div class="sn-nav"><ul id="snList"></ul></div>
+</div>
+<div class="sn-backdrop" id="snBackdrop" hidden></div>
+<div class="topbar" id="topbar" role="region" aria-label="目前閱讀位置">
+  <button class="tb-menu" id="tbMenu" type="button" aria-expanded="false" aria-controls="sidenav"><span aria-hidden="true">☰</span><span class="sr">開啟章節導覽</span></button>
+  <p class="tb-cur"><span class="tb-k">目前</span><span id="tbCur">總覽</span></p>
+  <span class="tb-pct" id="tbPct" aria-hidden="true">0%</span>
+  <div class="tb-bar" aria-hidden="true"><i id="tbFill"></i></div>
+</div>
+<div class="mainwrap" id="mainwrap">
+
+<header class="hero" id="top">
+  <div class="wrap hero-grid">
+    <div>
+      <div class="kicker">
+        <span class="pill">2026 115-1｜台大管理學院</span>
+        <span class="pill">講義快照 2026-11-06</span>
+        <span class="pill">非官方學習指南 v2.0</span>
+      </div>
+      <h1>多面向思維：未來領導者的AI與地緣政治思考模式</h1>
+      <p class="en">Multifaceted Mindset: The AI-X-Gs Framework for Global Leaders</p>
+      <p class="meta">授課：林益全 Dr. William Lin｜形式：「1+4」密集工作坊（1 次說明會＋4 次週六全天課程） <span class="cite">課程航線 Tab 1｜課程時間；教學大綱 v1.1｜課程資訊</span></p>
+    </div>
+    <div class="stats" id="heroStats" aria-live="polite"></div>
+  </div>
+</header>
+
+
+<main id="main">
+<noscript><div class="wrap"><p class="card">此頁的內容需要 JavaScript 才能顯示，請在瀏覽器開啟 JavaScript 後重新整理。</p></div></noscript>
+
+<!-- 總覽 -->
+<section id="overview">
+  <div class="wrap">
+    <h2>一頁看懂這門課</h2>
+    <p class="lead">先看全局：課程在哪個階段、框架是什麼、接下來要交什麼。</p>
+    <div class="card">
+      <h3 id="ov-progress">課程進度條 <span class="ta">助教補充</span></h3>
+      <p style="margin:0;color:var(--muted);font-size:.9rem">依你裝置的今天日期，標出目前在 2026/09/10 說明會到 12/12 模組四之間的位置。</p>
+      <div class="progress" id="progress" role="img" aria-label="課程進度條"></div>
+    </div>
+    <div class="grid g4 mt" id="ovCards"></div>
+    <div class="grid g2 mt">
+      <figure class="fig">
+        <button class="zoom" data-full="assets/img/poster-aixgs.jpg" aria-label="放大課程海報"><img src="assets/img/poster-aixgs.jpg" alt="課程海報：AI-X-Gs Strategy Framework 金字塔（AI、X、next、Generations、Gender、Green、Geopolitics），以及說明會、四個模組、EIP 的日期與課程特色" loading="lazy" width="604" height="765"></button>
+        <figcaption><span class="srcnote">圖表來源：林益全老師課程航線</span>課程海報（課程航線 Tab 1 文末）。點圖放大。</figcaption>
+      </figure>
+      <div class="card">
+        <h3 id="ov-features">課程特色</h3>
+        <ul class="clean">
+          <li><b>高學術 × 高實務並重</b>：從經典地緣政治學說到最新 AI 政策爭議，從戰略設計工具到企業創新案例。</li>
+          <li><b>小組個案 × 問題導向學習</b>：每一模組以具挑戰性的真實案例開場。</li>
+          <li><b>互動遊戲 × 創新體驗</b>：藝術思考、賽局模擬與角色扮演。</li>
+          <li><b>隨堂業師制度</b>：每日課程均有來自不同產業的導師隨堂參與。</li>
+          <li><b>跨校、跨系共學平台</b>。</li>
+        </ul>
+        <p><span class="cite">教學大綱 v1.1｜課程特色</span></p>
+        <h3 class="mt">本課要帶走的能力</h3>
+        <p style="margin:0">不以教單一 AI 工具、管理模型或地緣政治知識為目的，而是練習在高度不確定、跨域交織與價值衝突的環境中，<b>辨識問題、拆解結構、整合觀點並形成判斷</b>，提出「有立場、有取捨、有修正機制」的決策思維。</p>
+        <p><span class="cite">教學大綱 v1.1｜教學目標</span></p>
+      </div>
+    </div>
+    <div class="legend" aria-label="標示說明">
+      <span>標示說明：</span><span class="cite">課程航線 Tab 1｜章節</span> 事實出處
+      <span class="ta">助教補充</span> 本指南自行延伸
+      <span class="nw">尚未公布</span> 課程航線尚未提供
+    </div>
+  </div>
+</section>
+
+<!-- 框架 -->
+<section id="framework">
+  <div class="wrap">
+    <h2>AI-X-Gs 框架探索器</h2>
+    <p class="lead">點選金字塔的任一層，看它的定義、在課程中的提問方式，以及可以對應的「潛在案例」。</p>
+    <div class="fw">
+      <div class="card pyr">
+        <div id="pyramid"></div>
+        <p style="text-align:center;font-size:.85rem;color:var(--muted);margin:6px 0 0">重繪自課程海報金字塔 <span class="ta">助教補充</span> 底層依大綱列出完整 5Gs</p>
+      </div>
+      <div class="card detail" id="fwDetail" aria-live="polite"></div>
+    </div>
+
+    <h3 id="fw-flow" class="mt" style="margin-top:34px">三套底層思維工具怎麼串起來 <span class="ta">助教補充：概念圖</span></h3>
+    <p style="color:var(--muted);margin-top:0">依大綱「教學目標」對三套工具的分工說明重新排成流程；箭頭與「行動與修正」節點是本指南的整理方式。</p>
+    <div class="flow" id="flow"></div>
+    <p class="loopnote">↺ 行動結果回饋到下一輪「看見」：對應大綱所說「可行動、可修正」的判斷。</p>
+
+    <h3 id="fw-link" class="mt" style="margin-top:30px">老師的說法：AI-X-Gs → S.O.F.T. → C.L.E.A.R. 三個框架的連動 <span class="ok">2026-11-06 新增</span></h3>
+    <p style="color:var(--muted);margin-top:0">EIP 第三週（11/1～11/7）老師明確寫出三個框架的分工：不是各自獨立，而是從宏觀環境的理解、策略與資源的整合，走向決策與行動。上面的四步概念圖是本指南先前的整理，這一段是講義原文的重點。</p>
+    <div class="flow flow3" id="flowT"></div>
+    <p class="loopnote" id="flowTNote"></p>
+
+    <h3 id="fw-letters" class="mt" style="margin-top:30px">S.O.F.T. 與 C.L.E.A.R. 逐字解說</h3>
+    <p style="color:var(--muted);margin-top:0">英文全稱與中文都照老師的原文（課前必讀文章），引號內是原文用字。</p>
+    <div class="grid g2" id="letters"></div>
+
+    <h3 id="fw-more" class="mt" style="margin-top:30px">更多課程框架（來自課程航線連結的文章與簡報）</h3>
+    <p style="color:var(--muted);margin-top:0">每張卡片都附原文連結與出處。</p>
+    <div class="grid g2" id="moreFw"></div>
+
+    <div class="grid g2 mt" style="margin-top:30px">
+      <div class="card">
+        <h3 id="fw-eff">效果邏輯 vs 因果邏輯</h3>
+        <p style="margin-top:0">切換檢視，看同一個原則在兩種邏輯下的差異。</p>
+        <div class="chips" role="group" aria-label="切換邏輯">
+          <button class="chip" data-mode="both" aria-pressed="true">兩者對照</button>
+          <button class="chip" data-mode="e" aria-pressed="false">只看效果邏輯</button>
+          <button class="chip" data-mode="c" aria-pressed="false">只看因果邏輯</button>
+        </div>
+        <div class="tablewrap mt"><table class="eff" id="effTable"></table></div>
+        <div id="effText"></div>
+      </div>
+      <div class="card">
+        <h3 id="fw-mottos">九個實務行動口訣</h3>
+        <p style="margin-top:0">EIP 期間的線上影片。點一個口訣，標記你這週在小組裡用過的。<span class="ta">助教補充：標記功能</span></p>
+        <div class="mottos" id="mottos"></div>
+        <p id="mottoSrc"></p>
+        <div class="grid g2 mt">
+          <figure class="fig"><button class="zoom" data-full="assets/img/effectuation-causation.jpg" aria-label="放大效果邏輯與因果邏輯對照圖"><img src="assets/img/effectuation-causation.jpg" alt="Entrepreneurial Decision Model：Effectuation vs. Causation 對照表" loading="lazy" width="327" height="244"></button><figcaption><span class="srcnote">圖表來源：林益全老師課程航線</span>原始對照表（EIP 段落）</figcaption></figure>
+          <figure class="fig"><button class="zoom" data-full="assets/img/nine-mottos.jpg" aria-label="放大實務行動口訣圖"><img src="assets/img/nine-mottos.jpg" alt="線上課程影片：實務行動口訣九宮格" loading="lazy" width="322" height="242"></button><figcaption><span class="srcnote">圖表來源：林益全老師課程航線</span>原始九宮格（EIP 段落）</figcaption></figure>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 模組 -->
+<section id="modules">
+  <div class="wrap">
+    <h2>課程地圖：說明會、四個模組與 EIP</h2>
+    <p class="lead">每一站的時間、地點、學習目標、立體個案與教材。</p>
+    <div class="tabs" role="tablist" id="modTabs" aria-label="選擇模組"></div>
+    <div class="card" id="modPanel" role="tabpanel" aria-live="polite"></div>
+    <div class="grid g2 mt">
+      <figure class="fig"><button class="zoom" data-full="assets/img/m1-interactivity.jpg" aria-label="放大模組一互動實踐投影片"><img src="assets/img/m1-interactivity.jpg" alt="模組一互動實踐投影片：解構全場 AI-First BINGO、AI看見的我" loading="lazy" width="404" height="302"></button><figcaption><span class="srcnote">圖表來源：林益全老師課程航線</span>模組一「互動實踐」</figcaption></figure>
+      <figure class="fig"><button class="zoom" data-full="assets/img/eip-ship.jpg" aria-label="放大 EIP 段落配圖"><img src="assets/img/eip-ship.jpg" alt="EIP 段落配圖：夜間海上的帆船與燈塔" loading="lazy" width="525" height="336"></button><figcaption><span class="srcnote">圖表來源：林益全老師課程航線</span>EIP「引路人燈塔」段落配圖</figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<!-- 時間軸 -->
+<section id="timeline">
+  <div class="wrap">
+    <h2>時間軸與截止日</h2>
+    <p class="lead">倒數依你裝置的今天日期計算。灰色為已過去的項目。</p>
+    <div class="chips" role="group" aria-label="篩選時間軸" id="tlFilter">
+      <button class="chip" data-k="all" aria-pressed="true">全部</button>
+      <button class="chip" data-k="class" aria-pressed="false">上課</button>
+      <button class="chip" data-k="due" aria-pressed="false">截止／繳交</button>
+      <button class="chip" data-k="eip" aria-pressed="false">EIP</button>
+      <button class="chip" data-k="mentor" aria-pressed="false">業師相關</button>
+      <button class="chip" data-k="info" aria-pressed="false">其他資訊</button>
+    </div>
+    <ol class="tl mt" id="tl"></ol>
+  </div>
+</section>
+
+<!-- 作業與評分 -->
+<section id="assignments">
+  <div class="wrap">
+    <h2>作業、評分與修課規定</h2>
+    <p class="lead">每項作業的截止日、格式與要求，以及評分比重。</p>
+    <div class="grid g3" id="asgList"></div>
+    <div class="grid g2 mt">
+      <div class="card">
+        <h3 id="as-grade">評分標準</h3>
+        <div class="donut" id="donut"></div>
+        <p id="gradeNote" style="font-size:.9rem"></p>
+      </div>
+      <div class="card">
+        <h3 id="as-rules">修課規定與注意事項</h3>
+        <div id="rules"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 閱讀 -->
+<section id="readings">
+  <div class="wrap">
+    <h2>閱讀：課前必讀、日更文章與參考書目</h2>
+    <p class="lead">日更文章依日期排列，可搜尋或依主題篩選。主題標籤與一句話摘要由本指南整理 <span class="ta">助教補充</span>，連結與標題來自課程航線。</p>
+    <div class="card"><h3 id="rd-pre">課前準備閱讀（必讀）</h3><ol id="preread"></ol><p id="prereadSrc"></p></div>
+    <div class="card mt">
+      <h3 id="rd-arts">日更文章瀏覽器</h3>
+      <div class="search">
+        <label for="artQ" class="sr">搜尋</label>
+        <input id="artQ" type="search" placeholder="搜尋標題或摘要，例如：判斷、供應鏈、地緣">
+        <span id="artCount" class="score" aria-live="polite"></span>
+      </div>
+      <div class="chips" id="artTags" role="group" aria-label="主題篩選"></div>
+      <div class="arts mt" id="arts"></div>
+    </div>
+    <details class="mt"><summary>參考書目（教學大綱 v1.1，共 30 筆）</summary><ol id="books" style="font-size:.92rem"></ol></details>
+    <details><summary>互動實踐活動清單（教學大綱 v1.1）</summary><p id="practiceList"></p></details>
+  </div>
+</section>
+
+<!-- 案例 -->
+<section id="cases">
+  <div class="wrap">
+    <h2>案例：案例思問、老師回饋與潛在案例</h2>
+    <p class="lead">小組報告用的案例、老師對六組報告的共同提醒，以及期中提案可參考的十個潛在案例。</p>
+    <div class="grid g2">
+      <div class="card"><h3 id="cs-qs">案例思問清單</h3><ol id="caseQs"></ol></div>
+      <div class="card"><h3 id="cs-fb">老師對六組報告的共同提醒</h3><ul class="clean" id="fbPoints"></ul><h4>各組回饋連結</h4><ul class="clean" id="fbGroups"></ul><p id="fbSrc"></p></div>
+    </div>
+    <div class="card mt">
+      <h3 id="cs-pc">潛在案例 × 5Gs 對照</h3>
+      <p style="margin-top:0">點選一個 G，只看用到該面向的案例。<span class="ta">助教補充：篩選功能</span></p>
+      <div class="chips" id="pcFilter" role="group" aria-label="依 G 篩選"></div>
+      <div class="grid g2 mt" id="pcList"></div>
+      <p id="pcSrc"></p>
+      <div class="grid g2 mt">
+        <figure class="fig"><button class="zoom" data-full="assets/img/cases-1.jpg" aria-label="放大潛在案例投影片一"><img src="assets/img/cases-1.jpg" alt="潛在案例投影片（一）：半導體、生成式AI與教育、金融科技、醫療AI、零售電商" loading="lazy" width="567" height="425"></button><figcaption><span class="srcnote">圖表來源：林益全老師課程航線</span>潛在案例（一）</figcaption></figure>
+        <figure class="fig"><button class="zoom" data-full="assets/img/cases-2.jpg" aria-label="放大潛在案例投影片二"><img src="assets/img/cases-2.jpg" alt="潛在案例投影片（二）：新能源車、娛樂產業、農業科技、國防科技、旅遊與文化" loading="lazy" width="567" height="425"></button><figcaption><span class="srcnote">圖表來源：林益全老師課程航線</span>潛在案例（二）</figcaption></figure>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 業師 -->
+<section id="mentors">
+  <div class="wrap">
+    <h2>老師、助教與業師</h2>
+    <p class="lead">課程的人與角色，最後是小組可以拿來自我檢核的工具。</p>
+    <div class="people" id="people"></div>
+    <div class="card mt">
+      <h3 id="mt-spk">分享業師（立體個案）</h3>
+      <div class="tablewrap"><table id="spkTable"></table></div>
+      <p id="spkSrc"></p>
+    </div>
+    <div class="grid g2 mt">
+      <div class="card"><h3 id="mt-roles">三種業師角色</h3><div id="roles"></div><h4>隨堂業師的主要角色（A）–（E）</h4><div id="duties"></div></div>
+      <div class="card"><h3>和業師有關的講義重點</h3><ul class="clean" id="mFacts"></ul></div>
+    </div>
+    <div class="card mt">
+      <h3 id="mt-list">隨堂業師名單</h3>
+      <div class="tablewrap"><table id="mentorList"></table></div>
+      <p id="mentorSrc"></p>
+    </div>
+    <div class="card mt box-ta">
+      <h3 id="mt-check">小組自我檢核 <span class="ta">助教補充</span></h3>
+      <p style="margin-top:0">依課程航線對期中提案的要求和老師的回饋整理，小組討論或與業師對談前可以先對照一次。勾選狀態只存在你這台裝置的瀏覽器（localStorage），不會上傳。</p>
+      <div class="grid g2">
+        <div>
+          <h4>期中提案檢核表</h4>
+          <div id="midCheck"></div>
+        </div>
+        <div>
+          <h4>EIP 議題發想：六個起點</h4>
+          <ol id="eipStarts" style="padding-left:1.2em"></ol>
+          <p id="eipSrc"></p>
+          <h4>EIP 第三週：研究議題的四個自問</h4>
+          <div id="eip3"></div>
+          <h4>小組討論可以自問的問題</h4>
+          <ul class="clean" id="mentorQs"></ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 闖關遊戲 -->
+<section id="games">
+  <div class="wrap">
+    <h2>闖關遊戲區</h2>
+    <p class="lead">用玩的把框架練熟：配對、排序、闖關、抽卡與兩難模擬。玩法是 <span class="ta">助教補充</span>，題目裡的事實都取自課程航線與連結文件，並附出處。</p>
+    <div class="card gm-badges" id="gmBadges"></div>
+    <div class="grid g2 mt">
+      <div class="card"><h3 id="gm-count">截止倒數看板</h3><p class="gm-sub">依你裝置的今天日期，列出接下來的課程與截止日。</p><div id="gmCount"></div></div>
+      <div class="card"><h3 id="gm-5g">5Gs 配對挑戰</h3><p class="gm-sub">老師在十個潛在案例上標了各種 G，你認得出來嗎？一輪 8 題。</p><div id="gm5g"></div></div>
+    </div>
+    <div class="card mt"><h3 id="gm-chain">三框架串接：排排看</h3><p class="gm-sub">AI-X-Gs → S.O.F.T. → C.L.E.A.R. 怎麼接？C.L.E.A.R. 五步的順序呢？</p><div id="gmChain"></div></div>
+    <div class="grid g2 mt">
+      <div class="card"><h3 id="gm-quest">模組闖關</h3><p class="gm-sub">從模組一走到模組四，每站 3 題。</p><div id="gmQuest"></div></div>
+      <div class="card"><h3 id="gm-draw">日更文章速讀卡</h3><p class="gm-sub">隨機抽一篇老師的日更文章，先猜主題再翻面。</p><div id="gmDraw"></div></div>
+    </div>
+    <div class="card mt"><h3 id="gm-dil">兩難十字路口 <span class="ta">助教補充</span></h3><p class="gm-sub">選一個潛在案例和角色，在 5Gs 之間做取捨，再用 S.O.F.T. 動員、用 C.L.E.A.R. 收斂成一張決策卡。</p><div id="gmDil"></div></div>
+  </div>
+</section>
+
+<!-- 互動練習 -->
+<section id="practice">
+  <div class="wrap">
+    <h2>互動練習</h2>
+    <p class="lead">決策風洞模擬、自我檢測與概念字卡。模擬器的流程和壓力情境都是 <span class="ta">助教補充</span>，不是課程規定的作業。</p>
+    <div class="card sim" id="sim"></div>
+    <div class="card mt"><h3 id="pr-fc">概念字卡（36 張）</h3><p style="margin-top:0;color:var(--muted)">點卡片翻面；背面附出處。</p><div class="flashwrap"><div class="flash" id="flash"></div></div></div>
+    <div class="card mt"><h3 id="pr-quiz">自我檢測 <span class="score" id="qScore"></span></h3><p style="margin-top:0;color:var(--muted)">選一個答案就會顯示對錯與出處。</p><div class="quizgrid" id="quiz"></div><div class="btns"><button class="btn sec" id="qReset">重新作答</button></div></div>
+  </div>
+</section>
+
+<!-- 來源 -->
+<section id="sources">
+  <div class="wrap">
+    <h2>來源與版本</h2>
+    <div class="grid g2">
+      <div class="card">
+        <h3>本指南根據的文件</h3>
+        <ul class="clean">
+          <li><b>主要來源</b>：林益全老師的 Google 文件《2026 115-1 AIXGS 課程航線 Course Sail》，出處標為「課程航線 Tab 1｜章節標題或日期」。</li>
+          <li><b>次要來源</b>：課程航線連結的《2026_115-1台大_AI-X-Gs_syllabus v1.1》（標為「教學大綱 v1.1」）、《2026 115-1 台大_AI-X-Gs_常見問答 FAQ》（標為「常見問答 FAQ」），以及課程航線連結的文章與簡報（出處標文件標題，例如〈CLEAR 決策〉、「模組一簡報 第 38 頁」）。</li>
+          <li><b>出處小標</b>：點任一個出處小標，就能看到對應的原文段落。</li>
+          <li>講義快照日期：2026-11-06（Asia/Taipei）。課程航線是「滾動式更新」，本指南每週五晚上比對一次；兩次更新之間的變動，請以課程航線為準。</li>
+          <li>修改紀錄見 repo 的 <code>CHANGELOG.md</code>。</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>重點連結（課程航線）</h3>
+        <ul class="clean" id="linkList"></ul>
+        <p style="font-size:.85rem;color:var(--muted)">外部連結（↗）需要網路，而且多數要有課程權限；其他內容離線就能看。</p>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+
+<footer>
+  <div class="wrap">
+    <p style="margin:0 0 6px"><b>AI-X-Gs 互動學習指南（非官方）v2.0</b>｜內容依據林益全老師課程航線整理｜講義快照 2026-11-06</p>
+    <p style="margin:0">課程內容、圖表與文章版權屬林益全老師與原作者，經老師同意公開供修課同學與業師閱讀；圖表來源：林益全老師課程航線。標示「助教補充」的部分是本指南的延伸整理，不代表課程規定；課程規定以課程航線與老師公告為準。</p>
+  </div>
+</footer>
+</div>
+<div class="drawer" id="drawer" role="dialog" aria-modal="false" aria-labelledby="drTitle" hidden>
+  <div class="dr-handle" id="drHandle" role="separator" aria-orientation="vertical" aria-label="拖曳調整面板寬度（也可用左右方向鍵）" tabindex="0" aria-valuemin="28" aria-valuemax="60" aria-valuenow="42"></div>
+  <div class="dr-head">
+    <button class="dr-back btn sec" id="drBack" type="button" aria-label="返回學習指南">‹ 返回</button>
+    <div class="dr-meta"><p class="dr-title" id="drTitle">連結</p><p class="dr-domain" id="drDomain"></p></div>
+    <a class="btn dr-newtab" id="drNew" href="#" target="_blank" rel="noopener noreferrer">在新分頁開啟 ↗</a>
+    <button class="dr-close" id="drClose" type="button" aria-label="關閉面板（Esc）">×</button>
+  </div>
+  <p class="dr-hint" id="drHint" hidden></p>
+  <div class="dr-body" id="drBody"></div>
+</div>
+<script src="assets/data.js"></script>
+<script src="assets/citations.js"></script>
+<script src="assets/app.js"></script>
+<script src="assets/drawer.js"></script>
+<script src="assets/nav.js"></script>
+<script src="assets/games.js"></script>
+<script src="assets/cite.js"></script>
+</body>
+</html>
