@@ -1568,7 +1568,7 @@ window.CITES={
 "loc": "Q10",
 "q": [
 {
-"t": "若因不可避免之事由需請假，請 Email 林益全老師 (williamlin@ntu.edu.tw)與助教，並依照學校請假規範辦理及附上證明文件；",
+"t": "若因不可避免之事由需請假，請 Email 林益全老師 （聯絡方式見課程頁）與助教，並依照學校請假規範辦理及附上證明文件；",
 "m": [
 "學校請假規範辦理",
 "與助教，"
@@ -2762,9 +2762,9 @@ window.CITES={
 ]
 },
 {
-"t": "Harvard Kennedy School - Senior Fellow\n✉️ williamlin@ntu.edu.tw",
+"t": "Harvard Kennedy School - Senior Fellow\n（聯絡方式見課程頁）",
 "m": [
-"williamlin@ntu.edu.tw"
+"（聯絡方式見課程頁）"
 ]
 }
 ]
@@ -6438,9 +6438,9 @@ window.CITES={
 "m": []
 },
 {
-"t": "Harvard Kennedy School - Senior Fellow\n✉️ williamlin@ntu.edu.tw",
+"t": "Harvard Kennedy School - Senior Fellow\n（聯絡方式見課程頁）",
 "m": [
-"williamlin@ntu.edu.tw"
+"（聯絡方式見課程頁）"
 ]
 }
 ]
@@ -6516,7 +6516,7 @@ window.CITES={
 ]
 },
 {
-"t": "Harvard Kennedy School - Senior Fellow\n✉️ williamlin@ntu.edu.tw",
+"t": "Harvard Kennedy School - Senior Fellow\n（聯絡方式見課程頁）",
 "m": []
 }
 ]
@@ -6537,7 +6537,7 @@ window.CITES={
 ]
 },
 {
-"t": "Harvard Kennedy School - Senior Fellow\n✉️ williamlin@ntu.edu.tw",
+"t": "Harvard Kennedy School - Senior Fellow\n（聯絡方式見課程頁）",
 "m": []
 }
 ]

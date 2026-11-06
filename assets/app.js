@@ -272,7 +272,7 @@ pyramid();
 (function(){
   var P=C.people,I=P.instructor;
   $('#people').innerHTML=
-   '<div class="card"><h3>授課教師</h3><p style="margin:0"><b>'+esc(I.name)+'</b><br>'+I.titles.map(esc).join('<br>')+'<br>✉️ <a href="mailto:'+esc(I.email)+'">'+esc(I.email)+'</a></p><p style="font-size:.85rem;color:var(--muted)">'+esc(I.posterTitles)+'</p>'+cite(I.src)+'<p>'+ext(I.bio[0],I.bio[1])+'</p></div>'+
+   '<div class="card"><h3>授課教師</h3><p style="margin:0"><b>'+esc(I.name)+'</b><br>'+I.titles.map(esc).join('<br>')+'<br>聯絡方式見 '+ext('課程頁（課程航線）',I.courseUrl)+'</p><p style="font-size:.85rem;color:var(--muted)">'+esc(I.posterTitles)+'</p>'+cite(I.src)+'<p>'+ext(I.bio[0],I.bio[1])+'</p></div>'+
    '<div class="card"><h3>助教</h3><p><b>'+esc(P.ta.name)+'</b><br>收「生命的樂章」信封；撰寫〈我眼中的分享業師〉〈我眼中的 12 位隨堂業師〉等課前文章。</p>'+cite(P.ta.src+'；課程航線 Tab 1｜❷ 模組二')+'</div>'+
    '<div class="card"><h3>學生領袖小組 SLC</h3><p>'+esc(P.slc.x)+'</p><p style="font-size:.92rem">'+esc(P.slc.member)+'</p>'+cite(P.slc.src)+'</div>';
   $('#spkTable').innerHTML='<thead><tr><th scope="col">模組</th><th scope="col">業師</th><th scope="col">立體個案主題</th></tr></thead><tbody>'+P.speakers.map(function(s){return '<tr><td>'+esc(s.m)+'</td><td><b>'+esc(s.name)+'</b><br><span style="font-size:.88rem">'+esc(s.org)+'</span></td><td>'+esc(s.topic)+'</td></tr>'}).join('')+'</tbody>';

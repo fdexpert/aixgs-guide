@@ -944,13 +944,13 @@ window.COURSE={
     "WISKEY Capital - Founding Managing Director",
     "Harvard Kennedy School - Senior Fellow"
    ],
-   "email": "williamlin@ntu.edu.tw",
    "src": "教學大綱 v1.1｜課程資訊",
    "posterTitles": "課程海報另列：Founder & President, WISKEY CAPITAL｜Adjunct Professor, NTU｜Adjunct Professor, PKU-HSBC｜Senior Research Fellow, HKS（圖片文字，以原圖為準）",
    "bio": [
     "林益全老師簡介 Dr. William Lin",
     "https://management.ntu.edu.tw/faculty/teacher/sn/488"
-   ]
+   ],
+   "courseUrl": "https://docs.google.com/document/d/1UDOadcAU-2M0McRO06dbI3aCFXXaKqnsARuC2M-HnkE/edit"
   },
   "ta": {
    "name": "林宜萱 Shanon（助教）",
