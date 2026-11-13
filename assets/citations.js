@@ -6,8 +6,8 @@ window.CITES={
   "handout": {
    "t": "《2026 115-1 AIXGS 課程航線 Course Sail》",
    "u": "http://tiny.cc/aixgs2026",
-   "date": "快照 2026-11-13",
-   "f": "2026-11-13/course-sail.md"
+   "date": "快照 2026-11-13 20:00",
+   "f": "2026-11-13-2000/course-sail.md"
   },
   "syllabus": {
    "t": "《2026_115-1台大_AI-X-Gs_syllabus v1.1》",
@@ -146,6 +146,12 @@ window.CITES={
    "u": "https://drive.google.com/file/d/1z5tKSL1FOi97XsgDY1sXKUUuIhYPY57G/view?usp=drive_link",
    "date": "2026/10/17",
    "f": "linked/slides-module2-2026.md"
+  },
+  "growth": {
+   "t": "〈成長的承重力：當 AI 加速企業，誰來承擔資本、依賴與失控的代價？〉",
+   "u": "https://docs.google.com/document/d/1cJ31dRbZ9UlzUQcNhnx9TY2J4Y4f-e9sC6ddTJsjfqs/edit?usp=sharing",
+   "date": "林益全，2026.11.12",
+   "f": "linked/document-1cJ31dRbZ9UlzUQcNhnx9TY2J4Y4f-e9sC6ddTJsjfqs.txt"
   }
  },
  "byCite": {
@@ -4967,6 +4973,20 @@ window.CITES={
       },
       {
        "t": "讓資本投入跟得上價值創造，讓治理能力跟得上組織擴張，也讓必要的備援與接管機制，跟得上自動化的腳步。",
+       "m": []
+      }
+     ]
+    },
+    {
+     "d": "growth",
+     "loc": "全文 四、六",
+     "q": [
+      {
+       "t": "好的資本配置必須區分三種支出：維持現有服務所必需的支出、已經驗證可以擴張的支出，以及仍在購買資訊與學習的試驗支出。",
+       "m": []
+      },
+      {
+       "t": "一張是權責圖，知道誰能決定；另一張是依賴圖，知道哪些條件一旦消失，服務就無法繼續。",
        "m": []
       }
      ]
