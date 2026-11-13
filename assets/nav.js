@@ -7,7 +7,7 @@ var NAV=[
  ['framework','框','AI-X-Gs 框架',[['fw-flow','三套思維工具'],['fw-letters','S.O.F.T.／C.L.E.A.R. 逐字'],['fw-more','更多課程框架'],['fw-eff','效果邏輯 vs 因果邏輯'],['fw-mottos','九個實務行動口訣']]],
  ['modules','模','模組與課程地圖','MODULES'],
  ['timeline','時','時間軸與截止日',[]],
- ['assignments','作','作業與評分',[['as-grade','評分標準'],['as-rules','修課規定']]],
+ ['assignments','作','作業與評分',[['as-eip4','期中回饋與期末規格'],['as-grade','評分標準'],['as-rules','修課規定']]],
  ['readings','讀','閱讀',[['rd-pre','課前必讀'],['rd-arts','日更文章瀏覽器']]],
  ['cases','案','案例',[['cs-qs','案例思問'],['cs-fb','老師的共同提醒'],['cs-pc','潛在案例 × 5Gs']]],
  ['mentors','師','老師與業師',[['mt-spk','分享業師'],['mt-roles','三種業師角色'],['mt-list','隨堂業師名單'],['mt-check','小組自我檢核']]],

@@ -220,6 +220,10 @@ pyramid();
     if(a.fig)h+='<figure class="fig"><button class="zoom" data-full="assets/img/'+a.fig+'" aria-label="放大圖片：'+esc(a.t)+'"><img src="assets/img/'+a.fig+'" alt="'+esc(a.t)+'相關投影片或說明圖" loading="lazy"></button><figcaption><span class="srcnote">圖表來源：林益全老師課程航線</span></figcaption></figure>';
     return h+'<div>'+cite(a.src)+'</div></article>';
   }).join('');
+  if(C.eipWeek4&&document.getElementById('eip4')){
+    var W4=C.eipWeek4;
+    $('#eip4').innerHTML='<p style="margin-top:0">'+esc(W4.intro)+'</p><div class="grid g2"><div><h4>六組研究議題與老師的期中提案回饋</h4><ul class="clean">'+W4.groups.map(function(g){return '<li><b>'+esc(g[0])+'</b>：'+esc(g[1])+'<br>📝 '+ext(g[2],g[3])+'</li>'}).join('')+'</ul></div><div><h4>期末報告規格</h4><ul class="clean">'+W4.final.map(function(x){return '<li><b>'+esc(x[0])+'</b>：'+esc(x[1])+'</li>'}).join('')+'</ul><p style="font-size:.92rem">🔺 '+esc(W4.next)+'</p></div></div>'+cite(W4.src);
+  }
   // donut
   var G=C.grading,cols=['#2a4687','#1d5f86','#9b1c2e','#6b3fa0','#2f7a3b'],r=80,cx=110,cy=110,circ=2*Math.PI*r,off=0;
   var s='<svg viewBox="0 0 220 220" role="img" aria-label="評分比重圓餅圖：'+G.items.map(function(x){return x[0]+' '+x[1]+'%'}).join('、')+'">';
@@ -292,7 +296,7 @@ pyramid();
     ['形式：A4 一頁提案書或三頁簡報檔','課程航線 Tab 1｜⭐️期中報告'],
     ['11/10（二）前 Email 給老師','課程航線 Tab 1｜⭐️期中報告'],
     ['已提出反面論證：什麼情況下結論不再成立？','課程航線 Tab 1｜📊報告反饋建議'],
-    ['說得出研究價值：希望釐清什麼、為什麼樣的決策提供參考（Why this topic?）','課程航線 Tab 1｜EIP 11/1～11/7']
+    ['說得出研究價值：希望釐清什麼、為什麼樣的決策提供參考（Why this topic?）','課程航線 Tab 1｜EIP 11/2～11/8']
   ];
   var st=store.get('midcheck',{});
   $('#midCheck').innerHTML=items.map(function(it,i){return '<div class="check"><input type="checkbox" id="mc'+i+'" '+(st[i]?'checked':'')+'><label for="mc'+i+'" style="font-weight:400">'+esc(it[0])+'<br>'+cite(it[1])+'</label></div>'}).join('');
