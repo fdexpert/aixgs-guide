@@ -1,13 +1,13 @@
-/* 自動產生：build/gen_citations.py（人工指定：build/citation_overrides.py；v1.5 增補：aixgs/build/patch_cites_v15.py）。每句原文都要能在 source/ 對應檔案中逐字找到，見 build/check-citations.js */
+/* v1.10 週更 2026-11-20。每句原文都要能在 source/ 對應檔案中逐字找到。 */
 window.CITES={
- "v": "1.5",
- "generated": "2026-11-13",
+ "v": "1.10",
+ "generated": "2026-11-20",
  "docs": {
   "handout": {
    "t": "《2026 115-1 AIXGS 課程航線 Course Sail》",
    "u": "http://tiny.cc/aixgs2026",
-   "date": "快照 2026-11-13 20:00",
-   "f": "2026-11-13-2000/course-sail.md"
+   "date": "快照 2026-11-20",
+   "f": "2026-11-20/course-sail.md"
   },
   "syllabus": {
    "t": "《2026_115-1台大_AI-X-Gs_syllabus v1.1》",
@@ -152,6 +152,42 @@ window.CITES={
    "u": "https://docs.google.com/document/d/1cJ31dRbZ9UlzUQcNhnx9TY2J4Y4f-e9sC6ddTJsjfqs/edit?usp=sharing",
    "date": "林益全，2026.11.12",
    "f": "linked/document-1cJ31dRbZ9UlzUQcNhnx9TY2J4Y4f-e9sC6ddTJsjfqs.txt"
+  },
+  "judgecap": {
+   "t": "〈當答案變便宜，判斷就成為資本：AI製藥帶給管理者的策略啟示〉",
+   "u": "https://docs.google.com/document/d/16HTHiWJk56XrtWcs03tlqnDvrrmaNCXc2TBJ0m-JRYs/edit?usp=sharing",
+   "date": "林益全，2026.11.13",
+   "f": "linked/document-16HTHiWJk56XrtWcs03tlqnDvrrmaNCXc2TBJ0m-JRYs.txt"
+  },
+  "fieldcap": {
+   "t": "〈機器人走出實驗室之後：Physical AI 的下一場競爭，是組織的「現場能力」〉",
+   "u": "https://docs.google.com/document/d/1tTFkEt1baQsU8re3Qwnt9MlHaEaBhdhSbMe8oARm5LU/edit?usp=sharing",
+   "date": "林益全，2026.11.14",
+   "f": "linked/document-1tTFkEt1baQsU8re3Qwnt9MlHaEaBhdhSbMe8oARm5LU.txt"
+  },
+  "missionopt": {
+   "t": "〈AI 時代的公益策略與組織選擇權：人才不必離開，使命不必外包〉",
+   "u": "https://docs.google.com/document/d/1bDgg2JvzBdMyv5LHQo6p8y4X79kcUanmA58b-WZ-vUA/edit?usp=sharing",
+   "date": "林益全，2026.11.15",
+   "f": "linked/document-1bDgg2JvzBdMyv5LHQo6p8y4X79kcUanmA58b-WZ-vUA.txt"
+  },
+  "etafund": {
+   "t": "〈AI時代的「接班型創業」與台灣新機會：買下一家公司，買不到確定的未來〉",
+   "u": "https://docs.google.com/document/d/12aho9On-VHYRr2Ez-bJ2FEHugu_iMWOvv5t8T4WIYNs/edit?usp=sharing",
+   "date": "林益全，2026.11.17",
+   "f": "linked/document-12aho9On-VHYRr2Ez-bJ2FEHugu_iMWOvv5t8T4WIYNs.txt"
+  },
+  "fourhold": {
+   "t": "〈搜尋資本的下一課：買下現金流之後，如何接住一家企業的未來？〉",
+   "u": "https://docs.google.com/document/d/1f-kqGY2VTfESQbXownsMWQ8NXgTdUDfUh9Sh8mZ7YVM/edit?usp=sharing",
+   "date": "林益全，2026.11.18",
+   "f": "linked/document-1f-kqGY2VTfESQbXownsMWQ8NXgTdUDfUh9Sh8mZ7YVM.txt"
+  },
+  "riskpace": {
+   "t": "〈當風險跑得比決策快：AI時代，企業如何守住「不失控的成長」〉",
+   "u": "https://docs.google.com/document/d/1ifGm_pQedZRMIuEuXAxw3mNpR441YrkHDfL6IPCs9S4/edit?usp=sharing",
+   "date": "林益全，2026.11.19",
+   "f": "linked/document-1ifGm_pQedZRMIuEuXAxw3mNpR441YrkHDfL6IPCs9S4.txt"
   }
  },
  "byCite": {
@@ -4825,7 +4861,7 @@ window.CITES={
     }
    ]
   },
-  "課程航線 Tab 1｜EIP 11/9～11/15": {
+  "課程航線 Tab 1｜EIP 11/09～11/15": {
    "s": [
     {
      "d": "handout",
@@ -4993,7 +5029,7 @@ window.CITES={
     }
    ]
   },
-  "課程航線 Tab 1｜🐛Evolving in Progress 度化之途 2026/10/18～12/4、EIP 10/26～11/1；教學大綱 v1.1｜課程進度、EIP 11/2～11/8；課程航線 Tab 1｜EIP 11/9～11/15": {
+  "課程航線 Tab 1｜🐛Evolving in Progress 度化之途 2026/10/18～12/4、EIP 10/26～11/1；教學大綱 v1.1｜課程進度、EIP 11/2～11/8；課程航線 Tab 1｜EIP 11/09～11/15": {
    "s": [
     {
      "d": "handout",
@@ -5119,7 +5155,7 @@ window.CITES={
     }
    ]
   },
-  "課程航線 Tab 1｜❹ 2026/12/12；教學大綱 v1.1｜期末考；模組二簡報 第 38 頁；課程航線 Tab 1｜EIP 11/9～11/15": {
+  "課程航線 Tab 1｜❹ 2026/12/12；教學大綱 v1.1｜期末考；模組二簡報 第 38 頁；課程航線 Tab 1｜EIP 11/09～11/15": {
    "s": [
     {
      "d": "handout",
@@ -5205,7 +5241,7 @@ window.CITES={
     }
    ]
   },
-  "教學大綱 v1.1｜期末考；模組二簡報 第 38 頁；課程航線 Tab 1｜📊各小組的案例思問報告反饋建議；課程航線 Tab 1｜EIP 11/9～11/15": {
+  "教學大綱 v1.1｜期末考；模組二簡報 第 38 頁；課程航線 Tab 1｜📊各小組的案例思問報告反饋建議；課程航線 Tab 1｜EIP 11/09～11/15": {
    "s": [
     {
      "d": "syllabus",
@@ -5301,7 +5337,7 @@ window.CITES={
     }
    ]
   },
-  "課程航線 Tab 1｜EIP 11/9～11/15；教學大綱 v1.1｜期末考；模組二簡報 第 38 頁": {
+  "課程航線 Tab 1｜EIP 11/09～11/15；教學大綱 v1.1｜期末考；模組二簡報 第 38 頁": {
    "s": [
     {
      "d": "handout",
@@ -5366,6 +5402,172 @@ window.CITES={
        "m": [
         "執行機制"
        ]
+      }
+     ]
+    }
+   ]
+  },
+  "課程航線 Tab 1｜2026/11/15": {
+   "s": [
+    {
+     "d": "handout",
+     "loc": "2026/11/15 日更",
+     "q": [
+      {
+       "t": "當人工智慧能快速生成答案，管理者最重要的能力，反而是判斷什麼問題值得解決。",
+       "m": []
+      }
+     ]
+    },
+    {
+     "d": "judgecap",
+     "loc": "全文",
+     "q": [
+      {
+       "t": "我認為，AI時代最值得關注的變化，不只是知識生產成本下降，而是組織的稀缺資源正在轉移：當答案與方案愈來愈容易取得，辨識問題、配置資源，以及承擔選擇後果的判斷力，就可能成為更重要的資本。",
+       "m": []
+      }
+     ]
+    }
+   ]
+  },
+  "課程航線 Tab 1｜2026/11/16": {
+   "s": [
+    {
+     "d": "handout",
+     "loc": "2026/11/16 日更",
+     "q": [
+      {
+       "t": "同樣的問題，也適用於 NVIDIA 本身：當一家公司的方向與創辦人緊密相連，如何讓個人的遠見，轉化為組織可以持續履行的承諾？從驚豔到信任，考驗的不只是機器，也是管理。",
+       "m": []
+      }
+     ]
+    },
+    {
+     "d": "fieldcap",
+     "loc": "全文",
+     "q": [
+      {
+       "t": "這裡的現場能力，是我對這場演講的延伸詮釋。",
+       "m": []
+      },
+      {
+       "t": "它不是單一模型的能力，而是一個工作系統面對變化、處理例外與恢復運作的能力。",
+       "m": []
+      }
+     ]
+    }
+   ]
+  },
+  "課程航線 Tab 1｜2026/11/17": {
+   "s": [
+    {
+     "d": "handout",
+     "loc": "2026/11/17 日更",
+     "q": [
+      {
+       "t": "真正值得討論的，是如何讓企業利益與社會使命彼此支持，卻不互相冒充；讓人才可以留在體系裡成長，也讓公益保有服務社會的獨立判斷。",
+       "m": []
+      }
+     ]
+    },
+    {
+     "d": "missionopt",
+     "loc": "全文",
+     "q": [
+      {
+       "t": "真正重要的問題是：企業能不能提供一個足夠寬廣的組織空間，容納人才不斷變化的志向？",
+       "m": []
+      }
+     ]
+    }
+   ]
+  },
+  "課程航線 Tab 1｜2026/11/18": {
+   "s": [
+    {
+     "d": "handout",
+     "loc": "2026/11/18 日更",
+     "q": [
+      {
+       "t": "它更關乎：資本如何連結新一代經營者，讓企業延續，又不被過去綁住？畢竟，買下一家公司，並不等於買到確定的未來。",
+       "m": []
+      }
+     ]
+    },
+    {
+     "d": "etafund",
+     "loc": "全文",
+     "q": [
+      {
+       "t": "但前提是，我們不能把「買到過去的獲利」，誤認成「買到未來的確定性」。",
+       "m": []
+      }
+     ]
+    }
+   ]
+  },
+  "課程航線 Tab 1｜2026/11/19": {
+   "s": [
+    {
+     "d": "handout",
+     "loc": "2026/11/19 日更",
+     "q": [
+      {
+       "t": "財報可以查核，股權可以移轉，但客戶的信任、員工的默契，以及創辦人長年累積的判斷，不會隨著交割自動交接。",
+       "m": []
+      }
+     ]
+    },
+    {
+     "d": "fourhold",
+     "loc": "全文",
+     "q": [
+      {
+       "t": "因此，我研究搜尋資本時，不只看交易結構，而是把它視為四種承接：現金流的承接、信任的承接、決策權的承接，以及未來更新責任的承接。",
+       "m": []
+      }
+     ]
+    }
+   ]
+  },
+  "課程航線 Tab 1｜2026/11/20": {
+   "s": [
+    {
+     "d": "handout",
+     "loc": "2026/11/20 日更",
+     "q": [
+      {
+       "t": "韌性不是效率的反面，而是讓效率得以持續的條件。",
+       "m": []
+      }
+     ]
+    },
+    {
+     "d": "riskpace",
+     "loc": "全文",
+     "q": [
+      {
+       "t": "我認為，AI時代真正稀缺的，不只是運算能力，而是讓技術速度、決策權限與責任承擔彼此匹配的能力。",
+       "m": []
+      }
+     ]
+    }
+   ]
+  },
+  "課程航線 Tab 1｜2026/11/21": {
+   "s": [
+    {
+     "d": "handout",
+     "loc": "2026/11/21 日更（無外部連結，七條規律全文不在講義）",
+     "q": [
+      {
+       "t": "當AI將線性邏輯推向極致，領導者最稀缺的，反而是超越演算法的「度化智能」——一種融合效果邏輯、多面向思維與人性洞察的決策智慧。",
+       "m": []
+      },
+      {
+       "t": "矽谷與資本市場習慣向演算法與算力尋求確定性，然而經濟學家Frank Knight（1921）早已指出，真正的不確定性無法被歷史數據與機率模型量化。",
+       "m": []
       }
      ]
     }
