@@ -1,13 +1,13 @@
-/* v1.10 週更 2026-11-20。每句原文都要能在 source/ 對應檔案中逐字找到。 */
+/* v1.11 週更 2026-11-27。每句原文都要能在 source/ 對應檔案中逐字找到。 */
 window.CITES={
- "v": "1.10",
- "generated": "2026-11-20",
+ "v": "1.11",
+ "generated": "2026-11-27",
  "docs": {
   "handout": {
    "t": "《2026 115-1 AIXGS 課程航線 Course Sail》",
    "u": "http://tiny.cc/aixgs2026",
-   "date": "快照 2026-11-20",
-   "f": "2026-11-20/course-sail.md"
+   "date": "快照 2026-11-27",
+   "f": "2026-11-27/course-sail.md"
   },
   "syllabus": {
    "t": "《2026_115-1台大_AI-X-Gs_syllabus v1.1》",
@@ -188,6 +188,48 @@ window.CITES={
    "u": "https://docs.google.com/document/d/1ifGm_pQedZRMIuEuXAxw3mNpR441YrkHDfL6IPCs9S4/edit?usp=sharing",
    "date": "林益全，2026.11.19",
    "f": "linked/document-1ifGm_pQedZRMIuEuXAxw3mNpR441YrkHDfL6IPCs9S4.txt"
+  },
+  "degree7": {
+   "t": "〈演算法時代的「度化智能」：在AI與高度不確定性中，企業家駕馭資本與人性的七個智慧提醒〉",
+   "u": "https://docs.google.com/document/d/1-sxfkwJG35tShzLjHAgrPOI0gF7uUHgEGRFj_1KUxfM/edit?usp=sharing",
+   "date": "林益全，2026.11.21",
+   "f": "linked/document-1-sxfkwJG35tShzLjHAgrPOI0gF7uUHgEGRFj_1KUxfM.txt"
+  },
+  "anthipo": {
+   "t": "〈募到時間，還是鎖住未來？Anthropic 千億美元上市背後的 AI 資本考驗〉",
+   "u": "https://docs.google.com/document/d/1XJpgpOMeXP20LnU3VqA0OyHrGAB55Z6gHbqafH3f1eA/edit?usp=sharing",
+   "date": "林益全，2026.11.22",
+   "f": "linked/document-1XJpgpOMeXP20LnU3VqA0OyHrGAB55Z6gHbqafH3f1eA.txt"
+  },
+  "cheapans": {
+   "t": "〈當答案愈來愈便宜，誰來決定值得解決的問題？〉",
+   "u": "https://docs.google.com/document/d/1H7KDtdr4JV5Vq-rxcL1PJhGLUNc3_B48TPiaAqcdd4k/edit?usp=sharing",
+   "date": "林益全，2026.11.23",
+   "f": "linked/document-1H7KDtdr4JV5Vq-rxcL1PJhGLUNc3_B48TPiaAqcdd4k.txt"
+  },
+  "nvfounder": {
+   "t": "〈重磅快訊：創辦人回來了，然後呢？從五G看輝達的未完成治理〉",
+   "u": "https://docs.google.com/document/d/1y84J7W1CY6dDTuHm0xw5TaztT63hu9AwZJUvvrqrXj8/edit?usp=sharing",
+   "date": "林益全，2026.11.23",
+   "f": "linked/document-1y84J7W1CY6dDTuHm0xw5TaztT63hu9AwZJUvvrqrXj8.txt"
+  },
+  "agenda": {
+   "t": "〈當強權搶走議程，AI時代，誰替世界的長期風險拍板？〉",
+   "u": "https://docs.google.com/document/d/1RVzWE-E0zt_YdXYsIrCT65k2GnfJ175djnsF2xPaAQM/edit?usp=sharing",
+   "date": "林益全，2026.11.24",
+   "f": "linked/document-1RVzWE-E0zt_YdXYsIrCT65k2GnfJ175djnsF2xPaAQM.txt"
+  },
+  "trust": {
+   "t": "〈當 AI 能寫出所有好故事，誰還值得被託付？〉",
+   "u": "https://docs.google.com/document/d/1Wai5AZk4NCeD20Ddq_n4kZfnqcvvUNfTmhmz5qIe8KI/edit?usp=sharing",
+   "date": "林益全，2026.11.25",
+   "f": "linked/document-1Wai5AZk4NCeD20Ddq_n4kZfnqcvvUNfTmhmz5qIe8KI.txt"
+  },
+  "upshift": {
+   "t": "〈當AI愈會替你找出解答，領導者的核心不可替代的能力，就是要懂得升維的思維切換〉",
+   "u": "https://docs.google.com/document/d/1u5FvegMDxyQBZxrzrehYl4eVDSa6pOTZTQGcmONJ7hI/edit?usp=sharing",
+   "date": "林益全，2026.11.26",
+   "f": "linked/document-1u5FvegMDxyQBZxrzrehYl4eVDSa6pOTZTQGcmONJ7hI.txt"
   }
  },
  "byCite": {
@@ -1229,7 +1271,7 @@ window.CITES={
      "loc": "❸ 2026/12/05",
      "q": [
       {
-       "t": "🚩 台大管理學院一號館 B1 國學講堂** *【⚠️教室不同，請留意】*",
+       "t": "🚩 *台大管理學院一號館 B1 國學講堂*** *【⚠️教室不同，請留意】*",
        "m": [
         "⚠️教室不同",
         "國學講堂"
@@ -3917,14 +3959,14 @@ window.CITES={
      "loc": "❸ 2026/12/05 模組三",
      "q": [
       {
-       "t": "🪡 AI-FIRST 推進下的地緣商業模式、策略與跨境談判**\n**🕜 09:00 ～ 18:00**\n**🚩 台大管理學院一號館 B1 國學講堂** *【⚠️教室不同，請留意】*",
+       "t": "🪡 AI-FIRST 推進下的地緣商業模式、策略與跨境談判**\n**🕜 09:00 ～ 18:00**\n**🚩 *台大管理學院一號館 B1 國學講堂*** *【⚠️教室不同，請留意】*",
        "m": [
         "推進下的地緣商業模式、策略與跨境談判",
         "台大管理學院一號館"
        ]
       },
       {
-       "t": "🚩 台大管理學院一號館 B1 國學講堂** *【⚠️教室不同，請留意】*\n🗣️立體個案：漸強實驗室 AI 轉型之路：深耕本業，還是跨境延伸？\n薛覲創辦人（漸強實驗室）",
+       "t": "🚩 *台大管理學院一號館 B1 國學講堂*** *【⚠️教室不同，請留意】*\n🗣️立體個案：漸強實驗室 AI 轉型之路：深耕本業，還是跨境延伸？\n薛覲創辦人（漸強實驗室）",
        "m": [
         "轉型之路：深耕本業，還是跨境延伸？",
         "薛覲創辦人（漸強實驗室）"
@@ -4007,7 +4049,7 @@ window.CITES={
        ]
       },
       {
-       "t": "🚩 台大管理學院一號館 B1 國學講堂** *【⚠️教室不同，請留意】*",
+       "t": "🚩 *台大管理學院一號館 B1 國學講堂*** *【⚠️教室不同，請留意】*",
        "m": [
         "國學講堂"
        ]
@@ -5559,14 +5601,196 @@ window.CITES={
    "s": [
     {
      "d": "handout",
-     "loc": "2026/11/21 日更（無外部連結，七條規律全文不在講義）",
+     "loc": "2026/11/21 日更",
      "q": [
       {
        "t": "當AI將線性邏輯推向極致，領導者最稀缺的，反而是超越演算法的「度化智能」——一種融合效果邏輯、多面向思維與人性洞察的決策智慧。",
        "m": []
+      }
+     ]
+    },
+    {
+     "d": "degree7",
+     "loc": "全文",
+     "q": [
+      {
+       "t": "當AI把過去的經驗法則壓縮成極致的效率工具時，企業與領導者真正稀缺的，反而是超越線性邏輯的「度化智能」——一種融合了效果邏輯（Effectuation）、跨領域多面向思維，以及對人性底層規律深刻洞察的決策智慧。",
+       "m": []
+      }
+     ]
+    }
+   ]
+  },
+  "課程航線 Tab 1｜2026/11/22": {
+   "s": [
+    {
+     "d": "handout",
+     "loc": "2026/11/22 日更",
+     "q": [
+      {
+       "t": "當算力投入跑在商業落地之前，成長就不只是銷售問題，更是一場時間與資源的配置考驗。",
+       "m": []
+      }
+     ]
+    },
+    {
+     "d": "anthipo",
+     "loc": "全文",
+     "q": [
+      {
+       "t": "Anthropic 的上市，可以被理解為用龐大資本購買研究與商業化的時間；但如果這些資本同時被轉化成難以調整的支出義務，也可能讓未來更早被鎖定。",
+       "m": []
+      }
+     ]
+    }
+   ]
+  },
+  "課程航線 Tab 1｜2026/11/23": {
+   "s": [
+    {
+     "d": "handout",
+     "loc": "2026/11/23 日更",
+     "q": [
+      {
+       "t": "AI 可以擴大我們的可能，卻不能替我們承擔選擇的後果。",
+       "m": []
+      }
+     ]
+    },
+    {
+     "d": "cheapans",
+     "loc": "全文",
+     "q": [
+      {
+       "t": "最近讀到 CB Insights 一份研究，追蹤曾在 AI 100 入選公司擔任創辦人或創始團隊成員、如今再度投入隱身創業的 17 位人士。",
+       "m": []
+      }
+     ]
+    },
+    {
+     "d": "handout",
+     "loc": "2026/11/23 日更",
+     "q": [
+      {
+       "t": "創辦人回來了，然後呢？真正的答案，不在個人回歸，而在組織能否建立不必依賴英雄的信任。",
+       "m": []
+      }
+     ]
+    },
+    {
+     "d": "nvfounder",
+     "loc": "全文",
+     "q": [
+      {
+       "t": "股價的反彈，是市場對不確定性下降的反應。",
+       "m": []
+      }
+     ]
+    }
+   ]
+  },
+  "課程航線 Tab 1｜2026/11/24": {
+   "s": [
+    {
+     "d": "handout",
+     "loc": "2026/11/24 日更",
+     "q": [
+      {
+       "t": "強權可以選擇議程，卻不能替世界取消後果；今天看似務實的交易，也可能把更高的調整成本留給未來。",
+       "m": []
+      }
+     ]
+    },
+    {
+     "d": "agenda",
+     "loc": "全文",
+     "q": [
+      {
+       "t": "因此，不能把「宣言是否足以解決問題」與「有沒有宣言」混為一談。",
+       "m": []
+      }
+     ]
+    }
+   ]
+  },
+  "課程航線 Tab 1｜2026/11/25": {
+   "s": [
+    {
+     "d": "handout",
+     "loc": "2026/11/25 日更",
+     "q": [
+      {
+       "t": "當人工智慧可以快速寫出動人的募資故事、漂亮的投資簡報與完整的影響力報告，組織真正稀缺的，還是資金嗎？我認為，更稀缺的是讓人願意持續託付資源的正當性。",
+       "m": []
+      }
+     ]
+    },
+    {
+     "d": "trust",
+     "loc": "全文",
+     "q": [
+      {
+       "t": "尤其當人工智慧可以協助整理資料、分析提案、撰寫募資簡報，甚至迅速生成令人動容的故事時，「把事情說得合理」與「事情本身值得支持」之間的距離，反而更需要管理者辨識。",
+       "m": []
+      }
+     ]
+    }
+   ]
+  },
+  "課程航線 Tab 1｜2026/11/26": {
+   "s": [
+    {
+     "d": "handout",
+     "loc": "2026/11/26 日更",
+     "q": [
+      {
+       "t": "當AI能在幾秒鐘內完成分析、提出方案，領導者還有什麼不可替代的價值？我認為，不是比機器更快找到答案，而是懂得升維：從執行追問目的，從個人成就看見共同成長，從眼前績效思考長期責任。",
+       "m": []
+      }
+     ]
+    },
+    {
+     "d": "upshift",
+     "loc": "全文",
+     "q": [
+      {
+       "t": "人工智慧讓答案變得便宜，卻沒有讓判斷變得容易。",
+       "m": []
+      }
+     ]
+    }
+   ]
+  },
+  "課程航線 Tab 1｜2026/11/27": {
+   "s": [
+    {
+     "d": "handout",
+     "loc": "2026/11/27 日更（無外部連結）",
+     "q": [
+      {
+       "t": "本文從 Knight 對風險與不確定性的區分出發，結合創投契約、企業創投與政府研發補助的研究，並以台積電、Moderna、WeWork、Inflection AI 等案例說明：資本是一份不確定性的保單，選擇出資者，就是選擇你將如何犯錯，以及和誰一起從錯誤中站起來。",
+       "m": []
+      }
+     ]
+    }
+   ]
+  },
+  "課程航線 Tab 1｜EIP 11/22～11/28": {
+   "s": [
+    {
+     "d": "handout",
+     "loc": "EIP 11/22～11/28",
+     "q": [
+      {
+       "t": "如何將 AI-X-Gs 從一個分析框架，逐步內化為自己觀察、分析與判斷外部環境的思維方式？",
+       "m": []
       },
       {
-       "t": "矽谷與資本市場習慣向演算法與算力尋求確定性，然而經濟學家Frank Knight（1921）早已指出，真正的不確定性無法被歷史數據與機率模型量化。",
+       "t": "模組三將邀請邀請到深耕企業軟體與行銷科技（MarTech）領域的漸強實驗室創辦人 Jin 業師，以及擁有多年國際製藥產業經營管理經驗的 Nick 業師。",
+       "m": []
+      },
+      {
+       "t": "兩位業師所處的產業特性與發展脈絡截然不同，同樣面臨 AI、政策及地緣政治等不同面向所帶來的變化與挑戰。",
        "m": []
       }
      ]
